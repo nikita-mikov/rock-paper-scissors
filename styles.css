@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1e293b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #25BA7B;
+    font-family: fantasy;
+    border-radius: 5px;
+    font-size: 56px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    flex: 0;
+}
+
+button {
+    align-self: center;
+    flex: 1;
+    height: 100px;
+    max-width: 100px;
+    border: 2px solid #25BA7B;
+    border-radius: 10px;
+    transition: all 0.1s;
+    font-size: 22px;
+}
+
+button.play{
+    width: 80;
+    max-height: 80px;
+    width: 240px;
+    min-width: 240px;
+}
+
+.reset > button{
+    min-width: 140px;
+}
+
+.transformed{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #25BA7B;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.score-attribution{
+    display: flex;
+    justify-content: space-between;
+    gap: 425px;
+    color: #25BA7B;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.score > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #25BA7B;
+    border-radius: 5px;
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+div.match-result{
+    width: 400px;
+}
